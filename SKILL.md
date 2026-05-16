@@ -44,6 +44,9 @@ Référentiel complet du module Webform Drupal 8-11+ : éléments de formulaire 
 | Endpoint REST pour soumettre via API | Webform REST → POST endpoint | [webform-api.md](webform-api.md) |
 | Tester les emails sans les envoyer | Webform → Settings → Test mode | [webform-handlers.md](webform-handlers.md) |
 | Visualiser les formulaires soumis | Results → Submissions | [webform-submissions.md](webform-submissions.md) |
+| **Anti-spam : Honeypot (invisible)** | Module `honeypot` + Webform settings → Spam protection | [webform-access.md](webform-access.md) |
+| **Anti-spam : CAPTCHA invisible** | Module `recaptcha` (v2 invisible ou v3) + Webform element | [webform-access.md](webform-access.md) |
+| Anti-spam : taux de soumission (rate limiting) | Module `webform_spam_control` ou `flood` core | [webform-access.md](webform-access.md) |
 
 ## Anti-Patterns Critiques
 
